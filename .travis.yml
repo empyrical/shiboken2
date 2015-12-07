@@ -15,7 +15,7 @@ before_install:
   - sudo apt-add-repository -y ppa:beineri/opt-qt551-trusty
 
   - sudo apt-get update -qq
-  - sudo apt-get install -y build-essential git cmake qt55-base libxml2-dev libxslt-dev qt55tools qt55xmlpatterns5
+  - sudo apt-get install -y build-essential git cmake qt55base libxml2-dev libxslt-dev qt55tools qt55xmlpatterns
 
   - source /opt/qt55/bin/qt55-env.sh
 
