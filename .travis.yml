@@ -24,6 +24,7 @@ install:
   - qmake -query
 
   - mkdir build && cd build
+
   - cmake ..
   - make
 
